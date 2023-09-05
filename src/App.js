@@ -2,7 +2,7 @@ import "./styles.css";
 import { useState } from "react";
 export default function App() {
   const [text, setText] = useState("");
-  const [array, setarray] = useState([""]);
+  const [array, setarray] = useState([]);
   const [data, setData] = useState("");
   const handleItems = (y) => {
     const data = array.filter((x, z) => {
